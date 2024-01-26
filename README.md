@@ -1,6 +1,6 @@
-# Object Tracking using YOLO-NAS and DeepSort
+# YOLO object tracker
 
-This repository contains code for object tracking in videos using the YOLO-NAS object detection model and the DeepSORT algorithm. The code processes each frame of a video, performs object detection using YOLO-NAS, and tracks the detected objects across frames using DeepSort.
+This project contains code for object tracking in videos using the YOLO-NAS object detection model and the DeepSORT algorithm. The code processes each frame of a video, performs object detection using YOLO-NAS, and tracks the detected objects across frames using DeepSort.
 
 ## Demo of Object Tracker
 <p align="center">
@@ -24,14 +24,14 @@ This repository contains code for object tracking in videos using the YOLO-NAS o
 ## Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/sujanshresstha/YOLO-NAS_DeepSORT.git
-   cd YOLO-NAS_DeepSORT
+   git clone https://github.com/ruhoDev/YOLO-object-tracker.git
+   cd YOLO-object-tracker
    ```
    
 2. Create new environment using conda
    ```
    conda env create -f conda.yml
-   conda activate yolonas-deepsort
+   conda activate yolo-tracker
    ```
 
 
